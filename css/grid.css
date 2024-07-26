@@ -5,8 +5,30 @@
 
 .container{
     max-width:var(--grid-width);
+    min-width: var(--grid-gutter);
     margin: auto;
  }
- .row{
+
+.row{
     display: flex;
- }
+}
+
+.col{
+    width: fit-content;
+    padding: 0 var(--grid-gutter);
+}
+.col--lead{
+    flex: 1;
+}
+
+.col--center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col--right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
