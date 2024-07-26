@@ -1,0 +1,12 @@
+:root{
+    --grid-width: 1140px;
+    --grid-gutter: .5em
+}
+
+.container{
+    max-width:var(--grid-width);
+    margin: auto;
+ }
+ .row{
+    display: flex;
+ }
