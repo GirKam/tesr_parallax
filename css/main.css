@@ -117,3 +117,8 @@ html, body{
 .button:hover{
     background-color: var(--green-color);
 }
+
+.submenu{
+    --anim-menu-btn-color:var(--grey-color);
+    --anim-menu-btn-gap: .205em;
+}
