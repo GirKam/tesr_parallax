@@ -16,3 +16,8 @@ document.querySelectorAll('.header-content h1').forEach(e => {
 	})
 })
 
+swiper.on('slideChange', function(){
+	document.querySelectorAll('.header-content__slide').forEach(function(e,index){
+		return swiper.activeIndex === index ? e.classList.add('active') : e.classList.remove('active')
+	})
+})

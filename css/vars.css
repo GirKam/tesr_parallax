@@ -3,4 +3,5 @@
     --grey-color: #9fac8c;
     --green-color: #79c713;
     --index: calc(1vw + 1vh);
+    --transition: easy-in-out;
 } 
